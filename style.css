@@ -1,0 +1,71 @@
+body{
+    background: azure;
+}
+
+div.maindiv{
+	background: darkgray;
+    margin: 15px;
+    padding: 15px;
+}
+
+div.div1{
+    background: gainsboro;
+    padding: 15px;
+}
+
+div.div1 > p{
+	font-size: 25px;
+    font-style: italic;
+    color: red;
+}
+
+div.div2{
+	background: lavender;
+}
+
+h1{
+	    background: beige;
+	    text-align: center;
+
+}
+
+
+li{
+	    display: inherit;
+
+}
+
+input#newItem{
+	    background: floralwhite;
+    color: green;
+    height: 20px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button.addbutton{
+	color: green;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button.deletebutton{
+	width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    color: white;
+    background: red;
+    font-size: 15px;
+}
+
+p#mypara{
+	display: inline-block;
+    font-size: 20px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+}
